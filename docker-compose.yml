@@ -1,0 +1,41 @@
+services:
+  redis:
+    image: redis:8
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+
+  phoenix:
+    image: arizephoenix/phoenix:latest
+    ports:
+      - "6006:6006"
+    volumes:
+      - phoenix-data:/mnt/data
+    environment:
+      PHOENIX_WORKING_DIR: /mnt/data
+
+  api:
+    build: .
+    env_file: .env
+    environment:
+      REDIS_URL: redis://redis:6379
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+
+  worker:
+    build: .
+    command: python -m app.worker
+    env_file: .env
+    environment:
+      REDIS_URL: redis://redis:6379
+      PHOENIX_ENDPOINT: http://phoenix:6006/v1/traces
+    depends_on:
+      - redis
+      - phoenix
+
+volumes:
+  redis-data:
+  phoenix-data:

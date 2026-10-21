@@ -1,0 +1,26 @@
+{
+  "proveedores": [
+    {"proveedor": "TecnoSur", "producto": "Monitor 24 pulgadas", "precio_unitario": 118000, "stock": 60, "entrega_dias": 5, "envio": 25000, "descuento": {"desde": 20, "pct": 8}, "calificacion": 4.2},
+    {"proveedor": "Distribuidora Norte", "producto": "Monitor 24 pulgadas", "precio_unitario": 109500, "stock": 15, "entrega_dias": 12, "envio": 40000, "descuento": {"desde": 50, "pct": 5}, "calificacion": 3.6},
+    {"proveedor": "ImportPC", "producto": "Monitor 24 pulgadas", "precio_unitario": 124000, "stock": 200, "entrega_dias": 3, "envio": 0, "descuento": {"desde": 10, "pct": 12}, "calificacion": 4.7},
+    {"proveedor": "TecnoSur", "producto": "Teclado mecánico", "precio_unitario": 41000, "stock": 120, "entrega_dias": 5, "envio": 15000, "descuento": {"desde": 30, "pct": 10}, "calificacion": 4.2},
+    {"proveedor": "KeyMaster", "producto": "Teclado mecánico", "precio_unitario": 38500, "stock": 40, "entrega_dias": 9, "envio": 12000, "descuento": {"desde": 25, "pct": 6}, "calificacion": 4.0},
+    {"proveedor": "ImportPC", "producto": "Auriculares inalámbricos", "precio_unitario": 69000, "stock": 80, "entrega_dias": 3, "envio": 0, "descuento": {"desde": 15, "pct": 10}, "calificacion": 4.7},
+    {"proveedor": "SoundBox", "producto": "Auriculares inalámbricos", "precio_unitario": 61000, "stock": 300, "entrega_dias": 7, "envio": 18000, "descuento": {"desde": 40, "pct": 15}, "calificacion": 3.9},
+    {"proveedor": "Distribuidora Norte", "producto": "Webcam Full HD", "precio_unitario": 52000, "stock": 35, "entrega_dias": 10, "envio": 20000, "descuento": {"desde": 20, "pct": 7}, "calificacion": 3.6},
+    {"proveedor": "ImportPC", "producto": "Webcam Full HD", "precio_unitario": 58500, "stock": 90, "entrega_dias": 3, "envio": 0, "descuento": {"desde": 10, "pct": 5}, "calificacion": 4.7},
+    {"proveedor": "TecnoSur", "producto": "Notebook 14 pulgadas", "precio_unitario": 890000, "stock": 25, "entrega_dias": 6, "envio": 30000, "descuento": {"desde": 10, "pct": 4}, "calificacion": 4.2},
+    {"proveedor": "ImportPC", "producto": "Notebook 14 pulgadas", "precio_unitario": 935000, "stock": 40, "entrega_dias": 4, "envio": 0, "descuento": {"desde": 5, "pct": 6}, "calificacion": 4.7}
+  ],
+  "notas": [
+    {"tema": "monitores", "texto": "Los paneles IPS de 24 pulgadas bajaron cerca de un 6% en el último trimestre. Se espera estabilidad hasta fin de año."},
+    {"tema": "monitores", "texto": "Distribuidora Norte acumuló reclamos por demoras en entregas durante septiembre (promedio de 4 días de atraso)."},
+    {"tema": "teclados", "texto": "La demanda de teclados mecánicos creció un 18% interanual, impulsada por el segmento gamer y oficinas híbridas."},
+    {"tema": "auriculares", "texto": "SoundBox renovó su línea de auriculares; el modelo anterior tiene una tasa de devoluciones del 7%."},
+    {"tema": "auriculares", "texto": "ImportPC ofrece garantía extendida de 18 meses en auriculares sin costo adicional."},
+    {"tema": "webcams", "texto": "Las webcams Full HD tienen rotación alta en la tienda: el stock promedio dura tres semanas."},
+    {"tema": "notebooks", "texto": "Las notebooks de 14 pulgadas tienen aumentos mensuales del 3% en promedio por actualización de lista de precios."},
+    {"tema": "logistica", "texto": "Los envíos desde el interior tardan entre 2 y 5 días más en temporada alta (noviembre y diciembre)."},
+    {"tema": "logistica", "texto": "ImportPC y TecnoSur trabajan con operador logístico propio; Distribuidora Norte terceriza el transporte."}
+  ]
+}
